@@ -28,6 +28,7 @@ def obtenerIPs():
 
 # Imprime los resultados en una tabla
 def imprimirResultados(tabla):
+    print(f"\n{bcolors.BOLD} {bcolors.OKCYAN}\t IP ADRRESS FINDER 👽{bcolors.ENDC}")
     print(f"{bcolors.OKGREEN}")
     print(tabulate(tabla, headers="firstrow", tablefmt="fancy_grid"))
     print(f"{bcolors.ENDC}\n")

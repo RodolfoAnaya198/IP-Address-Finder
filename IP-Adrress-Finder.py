@@ -34,13 +34,13 @@ def imprimirResultados(tabla):
 
 # Imprime mensaje de error de conexión
 def mensajeErorConexion():
-    tabla = [["ERROR de conexión"], ["Verificala conexión de tu red."]]
+    tabla = [["ERROR de conexión"], ["Verifica la conexión de tu red."]]
     print(f"{bcolors.FAIL}")
     print(tabulate(tabla, headers="firstrow", tablefmt="fancy_grid"))
     print(f"{bcolors.ENDC}\n")
 
 def imprimeAutor():
-    print(f"{bcolors.BOLD} {bcolors.WARNING}\t\tBy Rodolfo Anaya 😎{bcolors.ENDC}\n")
+    print(f"{bcolors.BOLD} {bcolors.WARNING}\t\tPor Rodolfo Anaya 😎{bcolors.ENDC}\n")
 
 # Inicio del programa
 try:
